@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "SupportKit"
-  s.version             = "2.7.03"
+  s.version             = "2.7.33"
   s.summary             = "Speak to your app's users without leaving your inbox"
   s.description         = "SupportKit connects you to your iOS app's users so you can provide them with the knowledge and tools they need to be successful and keep coming back."
   s.homepage            = "http://supportkit.io"
