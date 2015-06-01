@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage            = "http://supportkit.io"
   s.license             = { :type => 'Commercial', :text => 'Radialpoint.  All rights reserved.' }
   s.author              = { "Radialpoint" => "help@supportkit.io" }
-  s.source 	            = { :git => "https://github.com/paulbagel/bagelkit.git", :tag =>"v2.7.33" }
+  s.source 	            = { :git => "https://paulbagel:paulbagel1@github.com/paulbagel/bagelkit.git", :tag =>"v2.7.33" }
   s.source_files        = 'SupportKit.framework/Versions/A/Headers/SupportKit.h', 'SupportKit.framework/Versions/A/Headers/SKTSettings.h', 'SupportKit.framework/Versions/A/Headers/SKTUser.h', 'SupportKit.framework/Versions/A/Headers/SKTConversation.h', 'SupportKit.framework/Versions/A/Headers/SKTMessage.h'
   s.resources           = 'SupportKit.bundle'
   s.preserve_paths      = 'SupportKit.framework/*'
