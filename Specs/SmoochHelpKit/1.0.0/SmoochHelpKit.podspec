@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Smooch Technologies Inc." => "hello@smooch.io" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/smooch/smoochhelpkit.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/paulbagel/bagelhelpkit.git", :tag => "1.0.0" }
   s.source_files = "SmoochHelpKit", "SmoochHelpKit/Source/**/*.{h,m}"
   s.resources    = "SmoochHelpKit/Resources/**/*.{png,tff,strings}"
   s.frameworks   = "SystemConfiguration", "UIKit", "Foundation", "OpenGLES", "QuartzCore", "CoreText"
