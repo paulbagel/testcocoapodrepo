@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/paulbagel/bagelhelpkit.git", :tag => "1.0.0" }
   s.source_files = "SmoochHelpKit", "SmoochHelpKit/Source/**/*.{h,m}"
-  s.resource_bundle = { 'SHKResources' => 'SmoochHelpKit/Resources/**/*.{png,ttf,lproj}' }
+  s.resource_bundle = { 'SHKResources' => ['SmoochHelpKit/Resources/**/*.{png,ttf}', 'SmoochHelpKit/Resources/Strings/*'] }
   s.frameworks   = "SystemConfiguration", "UIKit", "Foundation", "OpenGLES", "QuartzCore", "CoreText"
   s.library      = "xml2"
 
