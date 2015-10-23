@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author       = { "Smooch Technologies Inc." => "hello@smooch.io" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/paulbagel/bagelhelpkit.git", :tag => "1.0.0" }
-  s.source_files = "SmoochHelpKit", "SmoochHelpKit/Source/**/*.{h,m}"
+  s.source_files = "SmoochHelpKit/Source/**/*.{h,m}"
   s.resources    = "SmoochHelpKit/SHKResources.bundle"
   s.frameworks   = "SystemConfiguration", "UIKit", "Foundation", "OpenGLES", "QuartzCore", "CoreText"
   s.library      = "xml2"
