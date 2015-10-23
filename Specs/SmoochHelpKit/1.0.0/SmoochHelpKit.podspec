@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://smooch.io"
 
   s.license      = "MIT"
+  
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
