@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = "Smooch adds beautifully simple messaging to your app to keep your users engaged and coming back."
   s.homepage     = "https://smooch.io"
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
