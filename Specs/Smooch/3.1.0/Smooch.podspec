@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage            = "http://smooch.io"
   s.license             = { :type => "Commercial", :text => "Smooch Technologies Inc.  All rights reserved." }
   s.author              = { "Smooch Technologies Inc." => "help@smooch.io" }
-  s.source 	            = { :git => "https://github.com/smooch/smooch-ios.git", :tag =>"3.1.0" }
+  s.source 	            = { :git => "https://github.com/paulbagel/bagelkit.git", :tag =>"3.1.0" }
   s.source_files        = "Smooch.framework/Versions/A/Headers/Smooch.h", "Smooch.framework/Versions/A/Headers/SKTSettings.h", "Smooch.framework/Versions/A/Headers/SKTUser.h", "Smooch.framework/Versions/A/Headers/SKTConversation.h", "Smooch.framework/Versions/A/Headers/SKTMessage.h", "Smooch.framework/Versions/A/Headers/SKTMessageAction.h"
   s.resources           = "Smooch.bundle"
   s.preserve_paths      = "Smooch.framework/*"
