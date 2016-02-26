@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform              = :ios, "7.0"
   s.source                = { :git => "https://github.com/paulbagel/bagelhelpkit", :tag => "1.0.1" }
   s.source_files          = "SmoochHelpKit/Source/**/*.{h,m}"
-  s.resources             = "SmoochHelpKit/SHKResources.bundle"
+  s.resources             = "HelpKitResources/**/*"
   s.frameworks            = "SystemConfiguration", "UIKit", "Foundation", "OpenGLES", "QuartzCore", "CoreText"
   s.library               = "xml2"
   s.xcconfig              = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
