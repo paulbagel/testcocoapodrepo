@@ -7,12 +7,11 @@ Pod::Spec.new do |s|
   s.license               = { :type => "Commercial", :text => "Smooch Technologies Inc.  All rights reserved." }
   s.author                = { "Smooch Technologies Inc." => "hello@smooch.io" }
   s.platform              = :ios, "7.0"
-  s.source                = { :git => "https://github.com/paulbagel/bagelhelpkit", :tag => "1.0.1" }
+  s.source                = { :git => "https://github.com/paulbagel/bagelhelpkit", :tag => "1.1.0" }
   s.source_files          = "SmoochHelpKit/Source/**/*.{h,m}"
   s.frameworks            = "SystemConfiguration", "UIKit", "Foundation", "OpenGLES", "QuartzCore", "CoreText"
   s.library               = "xml2"
   s.xcconfig              = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.module_map            = "SmoochHelpKit/libxml/module.map" 
   s.resources             = "SmoochHelpKit/SHKResources.bundle"
   s.dependency "Smooch"
 end
