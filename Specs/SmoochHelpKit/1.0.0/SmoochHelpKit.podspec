@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.library               = "xml2"
   s.xcconfig              = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.module_map            = 'SmoochHelpKit/libxml/module.map'
+  s.preserve_paths = "HelpKitResources/*"
   s.dependency "Smooch"
 end
